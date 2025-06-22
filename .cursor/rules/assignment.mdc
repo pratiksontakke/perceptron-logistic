@@ -1,0 +1,57 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Assignment: Perceptron From Scratch
+
+## 🧠 Task Overview
+
+You're required to implement a **logistic regression model** (single-neuron perceptron) using **pure NumPy**. You'll train the model to classify fruits using features from `fruit.csv`.
+
+---
+
+## 📂 Folder Structure
+
+```
+q3/
+├── perceptron.ipynb       # Jupyter notebook with all implementation & plots
+├── fruit.csv              # Input dataset (≥12 rows)
+└── reflection.md          # Write-up answering prompts (≤ 300 words)
+```
+
+---
+
+## 📊 Dataset: fruit.csv
+
+- Minimum 12 rows
+- Columns:
+  - `length_cm`: float
+  - `weight_g`: float
+  - `yellow_score`: float (0–1)
+  - `label`: int (`0` for apple, `1` for banana)
+
+---
+
+## 💻 Implementation Requirements
+
+- Use **only NumPy**
+- Logistic Regression (binary classification)
+- Batch gradient descent
+  - Train for ≥ 500 epochs **or** until **loss < 0.05**
+- Plot the following:
+  - Loss vs. Epoch
+  - Accuracy vs. Epoch
+
+---
+
+## ✍️ Reflection.md (≤ 300 words)
+
+Answer the following:
+- How did initial random predictions differ from the final trained model?
+- How did learning rate affect convergence?
+- Link to "DJ knob / child-learning" analogy (intuitive explanation of learning rate adjustment).
+
+
+
+
